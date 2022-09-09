@@ -14,8 +14,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val findViewById = findViewById<Button>(R.id.btn)
         findViewById.setOnClickListener {
-            Toast.makeText(this@MainActivity, "修复bug真开心", Toast.LENGTH_SHORT).show()
-            //Toast.makeText(null, "修复bug真开心", Toast.LENGTH_SHORT).show()
+            //Toast.makeText(this@MainActivity, "修复bug真开心", Toast.LENGTH_SHORT).show()
+            Toast.makeText(null, "修复bug真开心", Toast.LENGTH_SHORT).show()
         }
 
         val text = findViewById<TextView>(R.id.tv_text)
